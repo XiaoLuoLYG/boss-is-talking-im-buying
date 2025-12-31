@@ -1,61 +1,63 @@
 # boss-is-talking-im-buying
 
-> **Trade during work hours. Because markets don’t care about meetings.**
+**中文** | [English](README_EN.md)
 
-A stealthy, clean, and efficient stock monitoring tool designed for the modern professional who needs to keep an eye on the market without drawing attention.
+> **上班摸鱼，下班收米。因为市场不在乎你在开会。**
 
-## Features
+一款专为当代打工人设计的隐蔽、简洁、高效的股票监控工具。让你在工作中随时掌握市场动态，却不引起任何人的注意。
 
-- 📉 **Real-time Data**: Fetches the latest stock data (A-Share) instantly.
-- 🤫 **Stealth Mode**: Designed to look like a standard utility or dashboard.
-- ⚡ **Lightweight**: Minimal resource usage, perfect for running in the background.
-- 🛠 **Easy Configuration**: JSON-based configuration for easy stock management.
+## 功能特点
 
-## Getting Started
+- 📉 **实时数据**：秒级获取 A 股最新行情数据。
+- 🤫 **隐蔽模式**：界面设计伪装成普通系统工具或仪表盘，拒绝社死。
+- ⚡ **轻量高效**：极低的资源占用，适合后台常驻运行。
+- 🛠 **简单配置**：通过 JSON 文件轻松管理你的自选股。
 
-### Prerequisites
+## 快速开始
+
+### 环境要求
 
 - Python 3.8+
-- [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended)
+- [Anaconda](https://www.anaconda.com/) 或 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (推荐)
 
-### Installation
+### 安装步骤
 
-1. Clone the repository:
+1. 克隆项目仓库：
    ```bash
    git clone https://github.com/your-username/boss-is-talking-im-buying.git
    cd boss-is-talking-im-buying
    ```
 
-2. Create and activate the environment:
+2. 创建并激活虚拟环境：
    ```bash
    conda create -n stock python=3.10
    conda activate stock
    ```
 
-3. Install dependencies:
+3. 安装依赖：
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+## 使用指南
 
-### Quick Start
+### 一键运行
 
-Simply run the batch file:
+直接运行批处理文件即可：
 
 ```bash
 run.bat
 ```
 
-Or manually:
+或者手动运行 Python 脚本：
 
 ```bash
 python stock_monitor.py
 ```
 
-### Configuration
+### 配置自选股
 
-Edit `stock_config.json` to add the stocks you want to watch.
+编辑 `stock_config.json` 文件，将你关注的股票代码加入列表。
 
 ```json
 {
@@ -67,11 +69,10 @@ Edit `stock_config.json` to add the stocks you want to watch.
 }
 ```
 
-## Disclaimer
+## 免责声明
 
-This tool is for educational purposes only. Trade responsibly and don't get fired.
+本项目仅供学习交流使用。投资有风险，摸鱼需谨慎，被炒鱿鱼概不负责。
 
-## License
+## 许可证
 
 MIT
-
